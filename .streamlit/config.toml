@@ -1,0 +1,14 @@
+[server]
+headless = true          # skips Streamlit's first-run e-mail prompt; run_app.bat opens the browser
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+# "Annotated notebook" theme – fountain-pen ink on clean paper (see ui/theme.py)
+[theme]
+base = "light"
+primaryColor = "#22357A"
+backgroundColor = "#F8F9FC"
+secondaryBackgroundColor = "#EDF1F8"
+textColor = "#23262F"

@@ -1,0 +1,11 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+data/
+.pytest_cache/
+
+nltk_data/**/*.zip
+*.incomplete
+arduino/**/arduino_secrets.h

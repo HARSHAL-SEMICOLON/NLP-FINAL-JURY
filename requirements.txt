@@ -1,0 +1,24 @@
+# Core
+streamlit>=1.40
+pymupdf>=1.24
+scikit-learn>=1.4
+numpy>=1.26
+pandas>=2.1
+nltk>=3.8
+requests>=2.31
+python-dotenv>=1.0
+
+# LLM (Gemini)
+google-genai>=1.0
+
+# REST backend
+fastapi>=0.110
+uvicorn>=0.29
+python-multipart>=0.0.9
+
+# Tests
+pytest>=8.0
+
+# ---- Optional: transformer embeddings + FAISS (recommended for the final demo) ----
+# pip install sentence-transformers faiss-cpu
+# First run downloads all-MiniLM-L6-v2 (~90 MB) from Hugging Face.
